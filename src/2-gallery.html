@@ -4,9 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <form class="feedback-form feedback-form-css" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" class="field field-input" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="8" class="field field-text"></textarea>
+      </label>
+      <button type="submit" class="button-submit">Submit</button>
+    </form>
+
     <script type="module" src="./js/2-gallery.js"></script>
   </body>
 </html>

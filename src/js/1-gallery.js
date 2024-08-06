@@ -91,5 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         captionsData: 'alt',
         captionPosition: 'bottom',
         captionDelay: 250,
+        overlayOpacity: 0.7,
+
     });
 });
